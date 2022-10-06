@@ -38,7 +38,10 @@
 <p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
 
 [Cookiecutter] template for a Python package based on the
-[Hypermodern Python] article series.
+[Hypermodern Python] article series, but with a couple of shifts in approach:
+
+- TOX instead of NOX
+- Optional support for Conda
 
 ✨📚✨ [Read the full documentation][readthedocs page]
 
