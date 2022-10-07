@@ -27,6 +27,31 @@
 
 - TODO
 
+## Installation (developer)
+
+Pre install poetry and tox into your global environment.
+
+```console
+$ brew install poetry
+$ brew install tox
+```
+
+Create conda environment for this project
+
+```console
+$ conda env create -f environment.yml
+$ conda activate {{cookiecutter.project_name}}
+$ poetry install
+```
+
+Workflow
+
+```console
+$ tox
+```
+
+## Installation (end user)
+
 ## Installation
 
 You can install _{{cookiecutter.friendly_name}}_ via [pip] from [PyPI]:
