@@ -1,6 +1,14 @@
 name: {{cookiecutter.project_name}}
 channels:
-  - defaults
+  - pytorch
   - conda-forge
+  - default
 dependencies:
   - python=3.9
+  - mamba
+  - poetry
+  - tox
+  - tox-conda
+  - pip
+  - pip:
+      - tox-poetry
