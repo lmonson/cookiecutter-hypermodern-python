@@ -32,8 +32,12 @@
 Pre install poetry and tox into your global environment.
 
 ```console
-$ brew install poetry
-$ brew install tox
+$ git init .
+$ conda env create -f environment.yml
+$ conda activate {{cookiecutter.project_name}}
+$ poetry lock
+$ poetry install
+$ tox
 ```
 
 Create conda environment for this project
