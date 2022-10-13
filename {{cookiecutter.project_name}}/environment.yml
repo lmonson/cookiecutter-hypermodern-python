@@ -8,7 +8,6 @@ dependencies:
   - mamba
   - poetry
   - tox
-  - tox-conda
   - pip
   - pip:
       - tox-poetry
